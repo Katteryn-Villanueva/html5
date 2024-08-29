@@ -7,8 +7,42 @@
 </head>
 <body>
   <h1>Tablas HTML</h1>
-  <table>
-    
+  <table border="1" summary="Peliculas favoritas">
+    <thead>
+        <caption>Mis Peliculas favoritas</caption>
+        <!-- TR FILAS -->
+        <tr>
+            <!-- TH ENCABEZADO -->
+            <th>Titulo</th>
+            <th>Genero</th>
+            <th>Año</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <!-- TD COLUMNAS -->
+            <td>Juegos del hambre</td>
+            <td>Fantasia</td>
+            <td>2012</td>
+        </tr>
+        <tr>
+            <td>Jocker</td>
+            <td>Drama</td>
+            <td>2019</td>
+        </tr>
+        <tr>
+            <td>Una niñera con balas</td>
+            <td colspan="2" rowspan="2">Accion y comdia</td>
+        </tr>
+        <tr>
+            <td>La sirenita</td>
+        </tr>
+    </tbody>
+   <tfoot>
+    <tr>
+        <td colspan="3">Curso de HTML5 pra Katteryn</td>
+    </tr>
+   </tfoot>
   </table>  
 </body>
 </html>
