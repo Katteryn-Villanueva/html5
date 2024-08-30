@@ -8,10 +8,17 @@
 <body>
     <h1>Formulario HTML</h1>
     <form>
-        <label for="nombre">Nombre:</label>
-        <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+        <fieldset>
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+        </fieldset>
 
-        <button>Enviar</button>
+        <fieldset>
+            <label for="descripcion">Descripcion</label>
+            <textarea id="descripcion"></textarea>
+        </fieldset>
+
+        <input type="submit" value="Enviar">
     </form>
 </body>
 </html>
